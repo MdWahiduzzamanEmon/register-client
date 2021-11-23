@@ -22,7 +22,7 @@ const RegisterForm = () => {
           ...storeValue,
           Name
         };
-        fetch("https://ancient-journey-42061.herokuapp.com/", {
+        fetch("https://ancient-journey-42061.herokuapp.com/userRegisterData", {
           method: "POST",
           headers: {
             "content-type": "application/json",
